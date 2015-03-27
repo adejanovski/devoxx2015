@@ -19,7 +19,7 @@ import cc.createSchemaRDD
 val rddSpeaker = cc.sql("select * from devoxx.speakers")
 
 // Récupération des talks dans un RDD
-val rddTalk = cc.sql("select * from devoxx.talk")
+val rddTalk = cc.sql("select * from devoxx.talk where type_talk = 'conf'")
 
 
 // Split par mot des titres des talks

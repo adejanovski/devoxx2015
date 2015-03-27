@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="611" started-at="2015-03-27T22:13:04Z" finished-at="2015-03-27T22:13:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="611" started-at="2015-03-27T22:13:04Z" finished-at="2015-03-27T22:13:04Z">
+      <class name="fr.chronopost.labs.data.CassandraAccessTest">
+        <test-method status="PASS" signature="getTopBuzzwords()[pri:0, instance:fr.chronopost.labs.data.CassandraAccessTest@b52f79]" name="getTopBuzzwords" duration-ms="600" started-at="2015-03-27T23:13:04Z" finished-at="2015-03-27T23:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopBuzzwords -->
+      </class> <!-- fr.chronopost.labs.data.CassandraAccessTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
