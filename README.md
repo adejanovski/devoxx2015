@@ -19,7 +19,6 @@ par :
 **CLASSPATH="$CLASSPATH:$ASSEMBLY_JAR:/xxxxx/lib/spark-cassandra-connector-assembly-1.x.x.jar:/xxxxx/lib/spark-cassandra-connector-java-assembly-1.x.x.jar"**
 
 
-
 # Application web de démo : /devoxx_tia
 
 # Sources du traitement Spark en Java : /DevoxxSparkJava
