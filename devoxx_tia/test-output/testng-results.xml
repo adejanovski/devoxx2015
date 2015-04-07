@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="611" started-at="2015-03-27T22:13:04Z" finished-at="2015-03-27T22:13:04Z">
+  <suite name="Default suite" duration-ms="935" started-at="2015-03-30T05:53:37Z" finished-at="2015-03-30T05:53:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="611" started-at="2015-03-27T22:13:04Z" finished-at="2015-03-27T22:13:04Z">
+    <test name="Default test" duration-ms="935" started-at="2015-03-30T05:53:37Z" finished-at="2015-03-30T05:53:38Z">
       <class name="fr.chronopost.labs.data.CassandraAccessTest">
-        <test-method status="PASS" signature="getTopBuzzwords()[pri:0, instance:fr.chronopost.labs.data.CassandraAccessTest@b52f79]" name="getTopBuzzwords" duration-ms="600" started-at="2015-03-27T23:13:04Z" finished-at="2015-03-27T23:13:04Z">
+        <test-method status="PASS" signature="getByTalksTypeParAnnee()[pri:0, instance:fr.chronopost.labs.data.CassandraAccessTest@14f1c67]" name="getByTalksTypeParAnnee" duration-ms="860" started-at="2015-03-30T07:53:37Z" finished-at="2015-03-30T07:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByTalksTypeParAnnee -->
+        <test-method status="PASS" signature="getTopBuzzwords()[pri:0, instance:fr.chronopost.labs.data.CassandraAccessTest@14f1c67]" name="getTopBuzzwords" duration-ms="50" started-at="2015-03-30T07:53:38Z" finished-at="2015-03-30T07:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTopBuzzwords -->
+        <test-method status="PASS" signature="getTopSociete()[pri:0, instance:fr.chronopost.labs.data.CassandraAccessTest@14f1c67]" name="getTopSociete" duration-ms="13" started-at="2015-03-30T07:53:38Z" finished-at="2015-03-30T07:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTopSociete -->
       </class> <!-- fr.chronopost.labs.data.CassandraAccessTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="fr.chronopost.labs.data.CassandraAccessTest">
+      <class name="fr.chronopost.labs.utils.UtilsTest">
         <methods>
-          <include name="getTopBuzzwords"/>
+          <include name="formatGraphData"/>
         </methods>
-      </class> <!-- fr.chronopost.labs.data.CassandraAccessTest -->
+      </class> <!-- fr.chronopost.labs.utils.UtilsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

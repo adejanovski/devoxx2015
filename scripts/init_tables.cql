@@ -1,7 +1,7 @@
 CREATE KEYSPACE devoxx
 WITH replication = {
-	'class' : 'SimpleStrategy',
-	'replication_factor' : 1
+	'class': 'SimpleStrategy',
+	'replication_factor': 1
 };
 
 use devoxx;
@@ -76,6 +76,14 @@ CREATE TABLE devoxx.societe_par_annee(
      PRIMARY KEY(societe, annee)
 ) WITH CLUSTERING ORDER BY (annee ASC);
 
+DROP TABLE IF EXISTS speaker_par_societe;
+CREATE TABLE speaker_par_societe (
+   id_speaker text,
+   nom_speaker text,
+   societe text,
+   twitter text,
+   PRIMARY KEY(societe, id_speaker)
+);
 
 use devoxx;
 
@@ -95,46 +103,46 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Des
 
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Le taré du terminal: outil pour le développeur de l''extrême','','TIA',{'emmanuelbernard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' HAProxy level 2 : des bases aux problématiques de scaling','','TIA',{'nicolashelleringer'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' OpenBCI ou comment lire dans les pensées en Java','','TIA',{'mathieuancelin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' RxJava - From Future To Rx','','TIA',{'bricedutheil','davidwursteisen'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Déboguage de JavaScript','','TIA',{'christophejollivet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Modulariser son application AngularJS avec Browserify','','TIA',{'antoinerichard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Coder Tetris en JavaScript, CoffeeScript, ClojureScript, GopherJs et elm','','TIA',{'philippeantoine'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Codez et déployez votre première application Web avec Ceylon','','TIA',{'stéphaneepardaud','julienviet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Sortez couverts avec Hystrix','','TIA',{'thomasrecloux'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'  TypeScript, le JavaScript statiquement typé','','TIA',{'benoitlemoine'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Développer des applications multiplateformes facilement à l''aide de Ionic Framework','','TIA',{'stéphaniemoallic'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Elles ressemblent à quoi mes données ?','','TIA',{'davidpilato','colinsurprenant'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Un Jenkins amélioré avec Docker, Mesos et Marathon','','TIA',{'jean-louisrigau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Créer des scènes 3D dans un navigateur web avec Three.js','','TIA',{'zheli'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Développement Java avec un IDE dans le Cloud: YES WE CAN','','TIA',{'sunsengdavidtan','florentbenoit'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Des applications Java #?!@ing Manageable','','TIA',{'emmanuelhugonnet','alexishassler'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Java dans le hardware avec la librairie Libbulldog','','TIA',{'laurenthuet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' WireMock, le serveur HTTP couteau suisse','','TIA',{'etiennepeiniau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'  Gitflow in action','','TIA',{'céciliabossard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Elasticsearch - De l''importance du mapping','','TIA',{'jérômemainaud'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python','','TIA',{'alexanderdejanovski','maxencelecointe'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Quand Java prend de la vitesse, Apache Maven vous garde sur les rails','','TIA',{'arnaudheritier','hervéboutemy'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' InfluxDB : la base de données chronologique OpenSource autonome','','TIA',{'nicolasmuller'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Et si on arrêtait de se prendre la tête avec la documentation','','TIA',{'guillaumescheibel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' JavaScript : analyser le code spaghetti d''une page web avec Yellow Lab Tools','','TIA',{'gaëlmétais'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Armez-vous d''un pixel monitoring avec Zeno !','','TIA',{'matthieufourtina'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Une présentation qui ne manque pas d''R!','','TIA',{'nathanielrichand','philippevasconcelos'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' App Engine Managed VMs et Fluent-http, un mariage heureux','','TIA',{'davidgageot'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' React, une autre façon de penser vos composants graphiques','','TIA',{'mathieuancelin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' La phygitalisation, le super pouvoir du développeur!','','TIA',{'cyrillakech','bertrandgressier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Tour d’horizon des outils pour être un développeur web productif','','TIA',{'jean-francoisgarreau','julienlanduré'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Comment créer un Web Component en moins de 30 minutes','','TIA',{'christophejolif'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Comment Akka persistence fera de vous un meilleur développeur !','','TIA',{'fredcecilia'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Jeu de rôle en ligne massivement multijoueur avec Firebase','','TIA',{'alexismoussine-pouchkine','thomasguerin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Oserez vous remplacer JPA par un micro ORM?','','TIA',{'youenchéné','pierreleresteux'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Le taré du terminal: outil pour le développeur de l''extrême','','TIA',{'emmanuelbernard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'HAProxy level 2 : des bases aux problématiques de scaling','','TIA',{'nicolashelleringer'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'OpenBCI ou comment lire dans les pensées en Java','','TIA',{'mathieuancelin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'RxJava - From Future To Rx','','TIA',{'bricedutheil','davidwursteisen'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Déboguage de JavaScript','','TIA',{'christophejollivet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Modulariser son application AngularJS avec Browserify','','TIA',{'antoinerichard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Coder Tetris en JavaScript, CoffeeScript, ClojureScript, GopherJs et elm','','TIA',{'philippeantoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Codez et déployez votre première application Web avec Ceylon','','TIA',{'stéphaneepardaud','julienviet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Sortez couverts avec Hystrix','','TIA',{'thomasrecloux'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'TypeScript, le JavaScript statiquement typé','','TIA',{'benoitlemoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développer des applications multiplateformes facilement à l''aide de Ionic Framework','','TIA',{'stéphaniemoallic'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elles ressemblent à quoi mes données ?','','TIA',{'davidpilato','colinsurprenant'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un Jenkins amélioré avec Docker, Mesos et Marathon','','TIA',{'jean-louisrigau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Créer des scènes 3D dans un navigateur web avec Three.js','','TIA',{'zheli'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développement Java avec un IDE dans le Cloud: YES WE CAN','','TIA',{'sunsengdavidtan','florentbenoit'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Des applications Java #?!@ing Manageable','','TIA',{'emmanuelhugonnet','alexishassler'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Java dans le hardware avec la librairie Libbulldog','','TIA',{'laurenthuet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'WireMock, le serveur HTTP couteau suisse','','TIA',{'etiennepeiniau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Gitflow in action','','TIA',{'céciliabossard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elasticsearch - De l''importance du mapping','','TIA',{'jérômemainaud'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python','','TIA',{'alexanderdejanovski','maxencelecointe'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Quand Java prend de la vitesse, Apache Maven vous garde sur les rails','','TIA',{'arnaudheritier','hervéboutemy'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'InfluxDB : la base de données chronologique OpenSource autonome','','TIA',{'nicolasmuller'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Et si on arrêtait de se prendre la tête avec la documentation','','TIA',{'guillaumescheibel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'JavaScript : analyser le code spaghetti d''une page web avec Yellow Lab Tools','','TIA',{'gaëlmétais'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Armez-vous d''un pixel monitoring avec Zeno !','','TIA',{'matthieufourtina'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Une présentation qui ne manque pas d''R!','','TIA',{'nathanielrichand','philippevasconcelos'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'App Engine Managed VMs et Fluent-http, un mariage heureux','','TIA',{'davidgageot'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'React, une autre façon de penser vos composants graphiques','','TIA',{'mathieuancelin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'La phygitalisation, le super pouvoir du développeur!','','TIA',{'cyrillakech','bertrandgressier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Tour d’horizon des outils pour être un développeur web productif','','TIA',{'jean-francoisgarreau','julienlanduré'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment créer un Web Component en moins de 30 minutes','','TIA',{'christophejolif'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment Akka persistence fera de vous un meilleur développeur !','','TIA',{'fredcecilia'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Jeu de rôle en ligne massivement multijoueur avec Firebase','','TIA',{'alexismoussine-pouchkine','thomasguerin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Oserez vous remplacer JPA par un micro ORM?','','TIA',{'youenchéné','pierreleresteux'});
 
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,' Expression Oriented Programming with F#','','TIA',{'robertpickering'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'     Golo, de la sucrette syntaxique pour vos applications Java','','TIA',{'philippecharrière'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Expression Oriented Programming with F#','','TIA',{'robertpickering'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Golo, de la sucrette syntaxique pour vos applications Java','','TIA',{'philippecharrière'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Programmation et musique avec Clojure et Overtone','','TIA',{'mathieugandin'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'REST facile et robuste avec Vert.x et Groovy','','TIA',{'aurélienmaury'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Un framework Web from scratch en Scala','','TIA',{'françoissarradin'});
@@ -148,7 +156,7 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Au 
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Git++ : Passez au niveau supérieur de la gestion de version','','TIA',{'cyrillakech','hubertsablonnière'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'HAProxy+Keepalived le loadbalancer in house facile','','TIA',{'nicolashelleringer'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'SonarQube sans quitter son IDE','','TIA',{'julienhenry'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'15'' pour coder Tetris en CoffeeScript','','TIA',{'philippeantoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'15''pour coder Tetris en CoffeeScript','','TIA',{'philippeantoine'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Apprenez les ficelles de Marionette','','TIA',{'romainmaton'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Créons un web component avec Polymer','','TIA',{'julienjakubowski','romainlinsolas'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Karma et Protractor, testons vos applications AngularJS','','TIA',{'christophejollivet'});
@@ -396,11 +404,11 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoi
 
  
  
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoisledroff','François le Droff ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoisledroff','François le Droff ','Adobe','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('francoisnollen','Francois Nollen','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoisostyn','Francois Ostyn','soat','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoissarradin','Francois Sarradin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frankpavageau','Frank Pavageau','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frankpavageau','Frank Pavageau','Ekino','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredcecilia','Fred CECILIA','Sépage','@naikyworld');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredsimon','Fred Simon','JFrog','@freddy33');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('freddymallet','Freddy Mallet','SonarSource','@FreddyMallet');
@@ -704,7 +712,7 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainma
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmaton','Romain Maton','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmenetrier','Romain Menetrier','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainniccoli','Romain Niccoli ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainpelisse','Romain Pelisse','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainpelisse','Romain Pelisse','Red Hat','@rpelisse');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainsertelon','Romain Sertelon','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ruicarvalho','Rui Carvalho','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sachalabourey','Sacha Labourey','','');
@@ -822,39 +830,39 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('zouheirc
 
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'  Comment git a sauvé notre projet (ou presque)','','quickie',{'céciliabossard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Ignite 1','','quickie',{'guillaumeduquesnay'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Unit testing concurrent code','','quickie',{'rafaelwinterhalter'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Faites votre Guignol : le bazar des modules Puppet','','quickie',{'sylvainveyrié'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Un nuage dans l''café: Bonnes pratiques JEE à l''heure du PaaS','','quickie',{'juliendurillon'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' 15'' minutes to setup and try Apache Spark using the Spark Notebook and Docker','','quickie',{'andypetrella'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' APT, trésor caché de la JVM !?','','quickie',{'raphaëlbrugier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Avro: la souplesse du JSON, les performances du binaire','','quickie',{'alexandrevictoor'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' CSS pour les nuls','','quickie',{'hubertsablonnière'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Se préparer dès maintenant à l''arrivée d''Angular 2','','quickie',{'romainlinsolas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Ignite 2','','quickie',{'guillaumeduquesnay'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Révision des fondamentaux : equals et hashCode c''est important','','quickie',{'briceleporini'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' BDD - Attention à la gueule de bois','','quickie',{'clémentrochas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Apprendre en s’amusant avec son compteur électrique','','quickie',{'cédricfinance'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' La latence applicative mobile : enjeux, sources, solutions ... la révolution Netflix + Push','','quickie',{'nicolasbabel','allandenis'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Réplication de machine à états: l’arme fatale des systèmes répartis','','quickie',{'pierresutra'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Du 100% pur Guice !','','quickie',{'paulineiogna'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Uniformisez vos postes de développement avec Fig','','quickie',{'etiennepeiniau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'  5 reasons why it''s time developers pay attention to robotics','','quickie',{'nicolasrigaud'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Ignite 3','','quickie',{'guillaumeduquesnay'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Vos managers ne veulent pas entendre parler de la dette technique, tant mieux !','','quickie',{'freddymallet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Tolérance aux pannes avec le Circuit Breaker Pattern','','quickie',{'mouhcinemoulou'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Intégrer et exploiter le format de données ouvert GTFS. Fails et succès, ce qui marche et ce qui ne marche pas !','','quickie',{'alexiskinsella'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment git a sauvé notre projet (ou presque)','','quickie',{'céciliabossard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ignite 1','','quickie',{'guillaumeduquesnay'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Unit testing concurrent code','','quickie',{'rafaelwinterhalter'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Faites votre Guignol : le bazar des modules Puppet','','quickie',{'sylvainveyrié'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un nuage dans l''café: Bonnes pratiques JEE à l''heure du PaaS','','quickie',{'juliendurillon'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'15''minutes to setup and try Apache Spark using the Spark Notebook and Docker','','quickie',{'andypetrella'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'APT, trésor caché de la JVM !?','','quickie',{'raphaëlbrugier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Avro: la souplesse du JSON, les performances du binaire','','quickie',{'alexandrevictoor'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'CSS pour les nuls','','quickie',{'hubertsablonnière'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Se préparer dès maintenant à l''arrivée d''Angular 2','','quickie',{'romainlinsolas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ignite 2','','quickie',{'guillaumeduquesnay'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Révision des fondamentaux : equals et hashCode c''est important','','quickie',{'briceleporini'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'BDD - Attention à la gueule de bois','','quickie',{'clémentrochas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Apprendre en s’amusant avec son compteur électrique','','quickie',{'cédricfinance'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'La latence applicative mobile : enjeux, sources, solutions ... la révolution Netflix + Push','','quickie',{'nicolasbabel','allandenis'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Réplication de machine à états: l’arme fatale des systèmes répartis','','quickie',{'pierresutra'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Du 100% pur Guice !','','quickie',{'paulineiogna'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Uniformisez vos postes de développement avec Fig','','quickie',{'etiennepeiniau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'5 reasons why it''s time developers pay attention to robotics','','quickie',{'nicolasrigaud'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ignite 3','','quickie',{'guillaumeduquesnay'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Vos managers ne veulent pas entendre parler de la dette technique, tant mieux !','','quickie',{'freddymallet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Tolérance aux pannes avec le Circuit Breaker Pattern','','quickie',{'mouhcinemoulou'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Intégrer et exploiter le format de données ouvert GTFS. Fails et succès, ce qui marche et ce qui ne marche pas !','','quickie',{'alexiskinsella'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Asynchronismes en JavaScript','','quickie',{'florentlegall'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Packaging et déploiement d’une application JavaEE avec Docker et Ansible','','quickie',{'stéphanemanciot'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' De la cryptographie dans le navigateur avec WebCrypto API','','quickie',{'jean-christophesirot'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'De la cryptographie dans le navigateur avec WebCrypto API','','quickie',{'jean-christophesirot'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Flux, l''architecture de Facebook','','quickie',{'florentduveau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Ignite 4','','quickie',{'guillaumeduquesnay'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Stratégie de mise en place de revues de code','','quickie',{'davidwursteisen'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Bluetooth Low Energy : Du mobile aux objets connectés','','quickie',{'damiencavaillès'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ignite 4','','quickie',{'guillaumeduquesnay'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Stratégie de mise en place de revues de code','','quickie',{'davidwursteisen'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Bluetooth Low Energy : Du mobile aux objets connectés','','quickie',{'damiencavaillès'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Toute la stack technique de Viadeo sur un poste de développement avec Docker','','quickie',{'nicolascolomer','quentinsuire'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Culture Craft','','quickie',{'thomaspierrain'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Savoir faire le deuil de son code','','quickie',{'ellènedijouxsiber'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Culture Craft','','quickie',{'thomaspierrain'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Savoir faire le deuil de son code','','quickie',{'ellènedijouxsiber'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Pub/Sub avec MongoDB, WebSockets et Java','','quickie',{'tugdualgrall'});
 
 
@@ -929,11 +937,11 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'CRa
 
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'  De zéro à héros avec Spring Boot','','lab',{'stéphanenicoll','brianclozel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Understanding Latency & Application Responsiveness','','lab',{'giltene'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Mesos University','','lab',{'aurélienmaury','pablolopez','jean-baptisteclaramonte','jean-pascalthiery'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Comprendre enfin JavaScript','','lab',{'thierrychatel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' La Google Cloud Plaform - Au delà des simples démos','','lab',{'davidgageot','ludovicchampenois'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'De zéro à héros avec Spring Boot','','lab',{'stéphanenicoll','brianclozel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Understanding Latency & Application Responsiveness','','lab',{'giltene'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Mesos University','','lab',{'aurélienmaury','pablolopez','jean-baptisteclaramonte','jean-pascalthiery'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comprendre enfin JavaScript','','lab',{'thierrychatel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'La Google Cloud Plaform - Au delà des simples démos','','lab',{'davidgageot','ludovicchampenois'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Initiation à Spark avec Java 8 et Scala','','lab',{'hayssamsaleh','oliviergirardot'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ceylon Walkthrough','','lab',{'gavinking','stéphaneepardaud'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Having fun with NAO Robot','','lab',{'nicolasrigaud'});
@@ -941,11 +949,11 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Lin
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Hands-on w/ Google Compute Engine','','lab',{'raytsang'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Quand DevOps rencontre BigData!','','lab',{'olivierbazoud','vincentheuschling'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Java EE c''est EEasy !','','lab',{'yannblazart','romainmanni-bucau','mathieubroutin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Les Streams sont parmi nous ! Traitement de données en Java 8','','lab',{'josépaumard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Trois heures à l’assaut d’une application réactive','','lab',{'nicolasjozwiak','xavierbucchiotty','vincentspiewak'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Programmation Lock-Free : les techniques des pros','','lab',{'jean-philippebempel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Coder sans peur du changement, avec la même pas mal ! architecture hexagonale','','lab',{'cyrillemartraire','thomaspierrain'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Allons plus loin avec CDI 1.2','','lab',{'antoinesabot-durand','antoninstefanutti'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Les Streams sont parmi nous ! Traitement de données en Java 8','','lab',{'josépaumard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Trois heures à l’assaut d’une application réactive','','lab',{'nicolasjozwiak','xavierbucchiotty','vincentspiewak'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Programmation Lock-Free : les techniques des pros','','lab',{'jean-philippebempel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Coder sans peur du changement, avec la même pas mal ! architecture hexagonale','','lab',{'cyrillemartraire','thomaspierrain'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Allons plus loin avec CDI 1.2','','lab',{'antoinesabot-durand','antoninstefanutti'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'AngularJS : The Good Parts','','lab',{'cyrilbalit'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Initiation au Machine Learning avec Spark','','lab',{'mathieubreton','albanphélip','yoannbenoit'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Microservices Bootcamp','','lab',{'joshlong','sébastiendeleuze'});
@@ -953,11 +961,11 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'gag
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Go tutorial','','lab',{'francesccampoyflores'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Compile-time annotation processing : @Nailed(it)','','lab',{'florentbiville','sébastienlesaint'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'RxJava, les mains dans le code','','lab',{'simonbaslé','laurentdoguin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Let''s sketch together !','','lab',{'alvinberthelot'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' IBM Bluemix en pratique','','lab',{'philippethomas','philippecomte','yveslecleach'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Cloud endpoints, Polymer, material design: the Google stack, infinitely scalable, positively beautiful','','lab',{'martingörner','horaciogonzalez','mandywaite','raytsang'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' (learn ''Clojure :with #_ a #fullstack ''web-app)','','lab',{'jonathanwinandy','fredcecilia'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' 3h pour créer votre application mobile de chat','','lab',{'loïcknuchel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Let''s sketch together !','','lab',{'alvinberthelot'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'IBM Bluemix en pratique','','lab',{'philippethomas','philippecomte','yveslecleach'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Cloud endpoints, Polymer, material design: the Google stack, infinitely scalable, positively beautiful','','lab',{'martingörner','horaciogonzalez','mandywaite','raytsang'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'(learn ''Clojure :with #_ a #fullstack ''web-app)','','lab',{'jonathanwinandy','fredcecilia'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'3h pour créer votre application mobile de chat','','lab',{'loïcknuchel'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Une application complète en JavaScript','','lab',{'christophejollivet','lailletcédric','mickaeldebonnaire'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Refactoring fonctionnel avec Java 8','','lab',{'ivanbeauvais','nicolasjozwiak'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Atelier Fruit Shop, la vie d''un projet en 3h','','lab',{'jean-laurentdemorlhon','brunoboucard'});
@@ -972,7 +980,7 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un 
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Java SE 8 for Tablets, Pis, and Legos','','lab',{'stephenchin'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Java 8 Streams & Collectors : patterns, performances, parallélisation','','lab',{'josépaumard'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Je fais ce que je veux avec Java EE','','lab',{'alexishassler','antoinesabot-durand'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,' Tout ce que vous avez toujours voulu savoir sur les lambdas et plus encore','','lab',{'rémiforax'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Tout ce que vous avez toujours voulu savoir sur les lambdas et plus encore','','lab',{'rémiforax'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Linux 101 (ou Linux, domptez le pingouin)','','lab',{'pierre-antoinegrégoire','frédéricweisbecker'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Université de la performance','','lab',{'henritremblay','ludovicpiot','marcbojoly','mikaelrobert'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Javascript as a first programming language : votre IC prête pour la révolution !','','lab',{'julienroche','frédéricdubois','frédéricbouquet'});
@@ -1043,8 +1051,8 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'The
 
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Machine learning et régulation numérique','','conf',{'guillaumelaforge','didiergirard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Priming Java for Speed','','conf',{'giltene'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Machine learning et régulation numérique','','conf',{'guillaumelaforge','didiergirard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Priming Java for Speed','','conf',{'giltene'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développeur sous influence','','conf',{'guillaumeduquesnay'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Java 9 Plan','','conf',{'briangoetz','paulsandoz'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Modern Enterprise Java Architectures with Spring 4.1','','conf',{'juergenhoeller','stéphanenicoll'});
@@ -1107,7 +1115,7 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Com
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Building fault tolerant microservices','','conf',{'christopherbatey'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Conference wm Web, Mobile & UX API hypermedia','','conf',{'davidmartin'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un News Feed temps réel personnalisé pour 65 millions d’utilisateurs','','conf',{'gregtruchetet','fabricerobini','quentinsuire'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' IoT, Java, and Autonomous Drones','','conf',{'jamesweaver'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'IoT, Java, and Autonomous Drones','','conf',{'jamesweaver'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Project Jigsaw','','conf',{'paulsandoz'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Conference lang Alternate Languages Présentation de Rust, le langage le plus excitant depuis l''arrivée de Scala','','conf',{'mathieupoumeyrol','pierrebaillet'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Write in AsciiDoc, Publish Everywhere!','','conf',{'danallen','maximegréau'});
@@ -1115,7 +1123,7 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Con
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Livrer chaque jour ce qui est prêt ! Points clés du développement d''un produit avec une livraison par jour.','','conf',{'dimitribaeli','benjamindegerbaix'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'UBFC - Ultimate Bug Fighting Championship','','conf',{'aurélieballet','gaëllebourven'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Les développeurs aussi maîtrisent le systemd','','conf',{'jean-eudescouignoux'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Conference wm Web, Mobile & UX http/2: A deux c''est mieux!','','conf',{'jean-françoisarcand'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Conference wm Web, Mobile & UX http/2: A deux c''est mieux!','','conf',{'jean-françoisarcand'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Finally, Security API JSR 375','','conf',{'alexkosowski'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'JDBC / JPA / Hibernate: Sans maîtrise la puissance n''est rien','','conf',{'briceleporini'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Conference wm Web, Mobile & UX Le retour en force de GWT','','conf',{'samijaber'});
@@ -1130,7 +1138,7 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Ana
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Conference wm Web, Mobile & UX Migration d''une webapp Tomcat vers Vert.x','','conf',{'florianboulay'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Proxy 2.0','','conf',{'rémiforax'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Le Continuous Merge chez LesFurets.com','','conf',{'pfliegerarnaud'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,' Les Cast Codeurs Podcast : table ronde','','conf',{'emmanuelbernard','vincentmassol','antoniogoncalves','arnaudheritier','guillaumelaforge'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Les Cast Codeurs Podcast : table ronde','','conf',{'emmanuelbernard','vincentmassol','antoniogoncalves','arnaudheritier','guillaumelaforge'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Barbus et Barbares','','conf',{'françoisledroff','romainpelisse'});
 
 
@@ -1365,6 +1373,3 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Ré
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'JDK 8 demo: lambdas in Action','','TIA',{'guillaumetardif'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'De l''audit de Code à l''Inspection Continue','','TIA',{'oliviergaudin'});
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Dessine moi un language: à la découverte de Xtext','','TIA',{'jeffmaury'});
-
-
-
