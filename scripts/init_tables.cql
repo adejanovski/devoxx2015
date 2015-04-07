@@ -88,127 +88,9 @@ CREATE TABLE speaker_par_societe (
 use devoxx;
 
 
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Réduire la pression sur l''allocation mémoire : le prochain pas dans l''optimisation des performances de la JVM','','TIA',{'benoitperroud','olivierlamy'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Tester une application Web avec Selenium 2, Selenium Grid et TestNG','','TIA',{'mathildelemee'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'GPGPU facile avec JavaCL, et trivial avec ScalaCL !','','TIA',{'olivierchafik'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Pratiquer DDD en un éclair','','TIA',{'ulrichvachon'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Chouchoutez votre code JavaScript','','TIA',{'romainlinsolas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Apache Buildr','','TIA',{'alexismidon'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Continuous deployement : Rackspace, Chef et capistrano en action','','TIA',{'bertrandpaquet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Simplifiez vos développements Android avec AndroidAnnotations !','','TIA',{'pierre-yvesricau','alexandrethomas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Réaliser des tests de charges avec Gatling','','TIA',{'stéphanelandelle','romainsertelon'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'JDK 8 demo: lambdas in Action','','TIA',{'guillaumetardif'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'De l''audit de Code à l''Inspection Continue','','TIA',{'oliviergaudin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Dessine moi un language: à la découverte de Xtext','','TIA',{'jeffmaury'});
 
 
-
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Le taré du terminal: outil pour le développeur de l''extrême','','TIA',{'emmanuelbernard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'HAProxy level 2 : des bases aux problématiques de scaling','','TIA',{'nicolashelleringer'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'OpenBCI ou comment lire dans les pensées en Java','','TIA',{'mathieuancelin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'RxJava - From Future To Rx','','TIA',{'bricedutheil','davidwursteisen'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Déboguage de JavaScript','','TIA',{'christophejollivet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Modulariser son application AngularJS avec Browserify','','TIA',{'antoinerichard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Coder Tetris en JavaScript, CoffeeScript, ClojureScript, GopherJs et elm','','TIA',{'philippeantoine'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Codez et déployez votre première application Web avec Ceylon','','TIA',{'stéphaneepardaud','julienviet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Sortez couverts avec Hystrix','','TIA',{'thomasrecloux'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'TypeScript, le JavaScript statiquement typé','','TIA',{'benoitlemoine'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développer des applications multiplateformes facilement à l''aide de Ionic Framework','','TIA',{'stéphaniemoallic'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elles ressemblent à quoi mes données ?','','TIA',{'davidpilato','colinsurprenant'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un Jenkins amélioré avec Docker, Mesos et Marathon','','TIA',{'jean-louisrigau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Créer des scènes 3D dans un navigateur web avec Three.js','','TIA',{'zheli'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développement Java avec un IDE dans le Cloud: YES WE CAN','','TIA',{'sunsengdavidtan','florentbenoit'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Des applications Java #?!@ing Manageable','','TIA',{'emmanuelhugonnet','alexishassler'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Java dans le hardware avec la librairie Libbulldog','','TIA',{'laurenthuet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'WireMock, le serveur HTTP couteau suisse','','TIA',{'etiennepeiniau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Gitflow in action','','TIA',{'céciliabossard'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elasticsearch - De l''importance du mapping','','TIA',{'jérômemainaud'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python','','TIA',{'alexanderdejanovski','maxencelecointe'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Quand Java prend de la vitesse, Apache Maven vous garde sur les rails','','TIA',{'arnaudheritier','hervéboutemy'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'InfluxDB : la base de données chronologique OpenSource autonome','','TIA',{'nicolasmuller'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Et si on arrêtait de se prendre la tête avec la documentation','','TIA',{'guillaumescheibel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'JavaScript : analyser le code spaghetti d''une page web avec Yellow Lab Tools','','TIA',{'gaëlmétais'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Armez-vous d''un pixel monitoring avec Zeno !','','TIA',{'matthieufourtina'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Une présentation qui ne manque pas d''R!','','TIA',{'nathanielrichand','philippevasconcelos'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'App Engine Managed VMs et Fluent-http, un mariage heureux','','TIA',{'davidgageot'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'React, une autre façon de penser vos composants graphiques','','TIA',{'mathieuancelin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'La phygitalisation, le super pouvoir du développeur!','','TIA',{'cyrillakech','bertrandgressier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Tour d’horizon des outils pour être un développeur web productif','','TIA',{'jean-francoisgarreau','julienlanduré'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment créer un Web Component en moins de 30 minutes','','TIA',{'christophejolif'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment Akka persistence fera de vous un meilleur développeur !','','TIA',{'fredcecilia'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Jeu de rôle en ligne massivement multijoueur avec Firebase','','TIA',{'alexismoussine-pouchkine','thomasguerin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Oserez vous remplacer JPA par un micro ORM?','','TIA',{'youenchéné','pierreleresteux'});
-
-
-
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Expression Oriented Programming with F#','','TIA',{'robertpickering'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Golo, de la sucrette syntaxique pour vos applications Java','','TIA',{'philippecharrière'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Programmation et musique avec Clojure et Overtone','','TIA',{'mathieugandin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'REST facile et robuste avec Vert.x et Groovy','','TIA',{'aurélienmaury'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Un framework Web from scratch en Scala','','TIA',{'françoissarradin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'30 minutes pour développer une appli Java EE ? C''est largement suffisant avec Forge 2.0!','','TIA',{'antoniogoncalves'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Mesurer directement depuis le CPU: les compteurs de performance','','TIA',{'jean-philippebempel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Microbenchmarking avec JMH','','TIA',{'henritremblay'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'One Java library to rule all security protocols','','TIA',{'jérômeleleu'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Tout ce que vous avez toujours voulu savoir de la JVM sans jamais oser lui demander en ligne de commande','','TIA',{'briceleporini'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'ZeroMQ : des super sockets pour insérer facilement 400 msg/s dans Elasticsearch','','TIA',{'bertrandpaquet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Au secours, mon portable part en prod ! (ou presque...)','','TIA',{'pierrechaussalet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Git++ : Passez au niveau supérieur de la gestion de version','','TIA',{'cyrillakech','hubertsablonnière'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'HAProxy+Keepalived le loadbalancer in house facile','','TIA',{'nicolashelleringer'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'SonarQube sans quitter son IDE','','TIA',{'julienhenry'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'15''pour coder Tetris en CoffeeScript','','TIA',{'philippeantoine'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Apprenez les ficelles de Marionette','','TIA',{'romainmaton'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Créons un web component avec Polymer','','TIA',{'julienjakubowski','romainlinsolas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Karma et Protractor, testons vos applications AngularJS','','TIA',{'christophejollivet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Models and Rest APIs on AngularJS with Restangular','','TIA',{'martingontovnikas'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'One tool to module them all','','TIA',{'pauldijou'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'WebSocket, NoSQL, et Non-Blocking Server-Side I/O avec Kaazing, MongoDB, et Node.js','','TIA',{'tugdualgrall'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Bluetooth Low Energy, votre téléphone comme passerelle de l''internet des objets','','TIA',{'romainmenetrier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Robotium vs Espresso: Get ready to rumble !','','TIA',{'thomasguerin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Ansible in action - le provisionning au bon niveau d''abstraction','','TIA',{'oliviergirardot'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Comment développer un PaaS Java en 30 minutes avec docker','','TIA',{'nicolasmuller','fabienamico'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Détection de malwares par leur empreinte réseau.','','TIA',{'thomasbailet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Machine Learning, Python et Open Data : démonstration d''un cas d''usage pour geek','','TIA',{'christophebourguignat'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Redis, une base Not Only NoSQL','','TIA',{'nicolasmartignole'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Spark the data scientist’s toolbox','','TIA',{'tugdualsarazin'});
-
-
-
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'24 Plugins Chrono','','TIA',{'romainmaton'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'3615 Cloud@Devoxx','','TIA',{'laurenthuet','nicolasloof'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Arquillian pour des tests Web simples et efficaces','','TIA',{'alexishassler'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Build & Deploy on your own cloud','','TIA',{'xaviercoulon'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'CRaSH le shell pour la plateforme Java','','TIA',{'julienviet','alaindefrance'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Déminage d''une application avec JRockit Mission Control','','TIA',{'françoisostyn'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Developing Modern Web Apps With Backbone.js','','TIA',{'sylvainzimmer'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Développer une application web à page unique en Dart','','TIA',{'yohanbeschi'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'eXtreme testing avec Byteman','','TIA',{'mathildelemee'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Faire parler son code source avec Sonar','','TIA',{'freddymallet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Fast Forward: comment migrer un gros projet de SVN à Git','','TIA',{'renaudbruyeron','thomascarsuzan'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Git Push Deploy - developer collaboration in the cloud with Github & Heroku','','TIA',{'johnstevenson'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Golo, un langage simple et léger basé sur invokedynamic','','TIA',{'julienponge'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Good Bad and Ugly Maven - a puzzler session','','TIA',{'nicolasloof','arnaudheritier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Gradle, 30 minutes pour tout changer','','TIA',{'sébastiencogneau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'L''épluche légume : un outil simple et efficace. 5 outils en 5 minute chacun, pour être plus productif dans le développement de tous les jours','','TIA',{'guillaumetardif'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Live coding avec Yeoman & AngularJS','','TIA',{'matthieulux'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Musclez vos applis Android avec les outils du monde Java','','TIA',{'stephanenicolas','jeromevanderlinden'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'NFC, l''interaction facilitée des mobiles avec leur environnement','','TIA',{'romainmenetrier'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'No more (unsecure) secrets, Marty','','TIA',{'mathiasherberts'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Présentation de Frege, un langage fonctionnel dans l''esprit d''Haskell tournant sur la JVM','','TIA',{'yoricklaupa'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Programmation déclarative en Clojure: du destructuring à Datomic','','TIA',{'nilsgrunwald'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Réalité Augmentée avec Android','','TIA',{'atefhaouari'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'SARAH une maison Intelligente pour connecter les objets','','TIA',{'jean-philippeencausse'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Solutions pour programmation calcul de masse - Hadoop distribuée- Pig / Hive / Cascading / MapReduce','','TIA',{'floriandouetteau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Soon, in a galaxy not so far away','','TIA',{'mathieuancelin'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Space Chatons: Bleeding Edge HTML5','','TIA',{'philippeantoine','pierregayvallet'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Spock, le testing nouvelle génération','','TIA',{'cédricchampeau'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Trucs et astuces avec Java et MongoDB sur Raspberry PI','','TIA',{'guillaumescheibel'});
-insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Weld-OSGi in action','','TIA',{'mathieuancelin'});
-
-
-
-
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('adityabansod','Aditya Bansod','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('adityabansod','Aditya Bansod','Sencha','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('adrienblind','Adrien Blind','Société Générale','@adrienblind');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('adriengrand','Adrien Grand','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('adrientaypamart','Adrien Tay pamart','','');
@@ -231,10 +113,10 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('allanden
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexkosowski','Alex Kosowski','Oracle','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexsnaps','Alex Snaps','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexsnaps','Alex Snaps','Terracotta Inc','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexanderdejanovski','Alexander DEJANOVSKI','Chronopost International','@alexanderDeja');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandreardhuin','Alexandre Ardhuin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrebertails','Alexandre Bertails','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrebertails','Alexandre Bertails','W3C','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandredelegue','Alexandre Delegue','serli','@chanksleroux');
 
 
@@ -244,24 +126,24 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexande
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrelacroux','Alexandre Lacroux ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandremechain','Alexandre Mechain','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandremechain','Alexandre Mechain','AppDynamics','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrenavarro','Alexandre Navarro','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrethomas','Alexandre Thomas','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrevasseur','Alexandre Vasseur','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrethomas','Alexandre Thomas','Excilys','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrevasseur','Alexandre Vasseur','VMware','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexandrevictoor','Alexandre Victoor','Société Générale','@Alex_Victoor');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisagahi','Alexis Agahi','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisgaches','Alexis Gaches','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisagahi','Alexis Agahi','Krank SAS','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisgaches','Alexis Gaches','IBM','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisguéganno','Alexis Guéganno','Valwin','@agueganno');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexishassler','Alexis Hassler','sewatech','@AlexisHassler');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexiskinsella','Alexis Kinsella','Xebia','@alexiskinsella');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexismidon','Alexis Midon','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexismidon','Alexis Midon','C3','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexismoussine-pouchkine','Alexis Moussine-Pouchkine','Google','@alexismp');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alexisseigneurin','Alexis Seigneurin','Ippon Technologies','@aseigneurin');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alinepaponaud','Aline Paponaud','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alinepaponaud','Aline Paponaud','Sfeir','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('alvinberthelot','Alvin Berthelot','','@alvinberthelot');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('amaurycrickx','Amaury Crickx ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('amiralakhal','Amira LAKHAL','Valtech','@miralak');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('andrewspencer','Andrew Spencer','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('andrewspencer','Andrew Spencer','ISO','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('andypetrella','Andy Petrella','NextLab','@noootsab');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('antoinedetante','Antoine Detante','InTech S.A.','@antoined');
@@ -272,39 +154,39 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('antoines
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('antoinevernois','Antoine Vernois ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('antoninstefanutti','Antonin Stefanutti','Murex','@astefanut');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('antoniogoncalves','Antonio Goncalves','AGoncal Consulting','@agoncal');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudbailly','Arnaud Bailly','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudbailly','Arnaud Bailly','PolySpot','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudbétrémieux','Arnaud Bétrémieux ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudheritier','Arnaud Héritier','eXo platform','@aheritier');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudtaffanel','Arnaud Taffanel','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudtournier','Arnaud Tournier','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arnaudtournier','Arnaud Tournier','Palo IT','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('arungupta','Arun Gupta','Red Hat','@arungupta');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('atefhaouari','Atef Haouari','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('atefhaouari','Atef Haouari','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('audeamarrurtu','Aude Amarrurtu','Arolla','@AudeAmarrurtu');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('audreyneveu','Audrey Neveu','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('audreyneveu','Audrey Neveu','Sfeir','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('aurélieballet','Aurélie Ballet','Ullink','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('aurélienbroszniowski','Aurelien Broszniowski','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('aurélienmaury','Aurélien Maury','WeScale','@aurelienmaury');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('aurélienpelletier','Aurelien Pelletier','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('axelfontaine','Axel Fontaine','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('axelhaustant','Axel Haustant','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('aurélienpelletier','Aurelien Pelletier','Sfeir','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('axelfontaine','Axel Fontaine','Indépendant','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('axelhaustant','Axel Haustant','Valtech','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('azzeddineramrami','Azzeddine Ramrami','Groupe Pierre & Vacances CenterParcs','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benevans','Ben Evans','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benevans','Ben Evans','jClarity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benjamincabé','Benjamin Cabé','Eclipse Foundation','@kartben');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benjamindegerbaix','Benjamin Degerbaix','LesFurets.com','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benjaminmarron','Benjamin Marron','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoitbossuet','Benoit Bossuet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benjaminmarron','Benjamin Marron','Objet Direct','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoitbossuet','Benoit Bossuet','IBM','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoîtlacelle','Benoît Lacelle ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoitlemoine','Benoit Lemoine','Xebia','@benoit_lemoine');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoitperroud','Benoit Perroud','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('benoitperroud','Benoit Perroud','Verisign','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bertrandgressier','Bertrand Gressier','ADEO','bgressier');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bertrandpaquet','Bertrand Paquet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bertrandpaquet','Bertrand Paquet','Octo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bettymoreau','Betty MOREAU','ADR&Com','@AdretCom');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bodilstokke','Bodil Stokke','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bodilstokke','Bodil Stokke','Arktekk','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('brianclozel','Brian Clozel','Pivotal inc.','@brianclozel');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('briangoetz','Brian Goetz','Oracle','@briangoetz');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('bricedutheil','Brice Dutheil','Arkey','@BriceDutheil');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('briceleporini','Brice Leporini','Indépendant','@blep');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('brunoemsellem','Bruno Emsellem','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('brunoemsellem','Bruno Emsellem','Photobox','');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('brunoboucard','Bruno Boucard','','');
 
@@ -313,56 +195,56 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('brunobou
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('camillemaussang','Camille Maussang ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('camilleroux','Camille Roux','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('carlosconde','Carlos Conde','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('camilleroux','Camille Roux','Human Coders','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('carlosconde','Carlos Conde','Amazon Web Services','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('carlossanchez','Carlos Sanchez','','csanchez');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('céciliabossard','Cécilia Bossard','Timwi Consulting','@ceciliaBossard');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cédricchampeau','Cédric Champeau','n/a','@CedricChampeau');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cédricchampeau','Cédric Champeau','VMware','@CedricChampeau');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cédricfinance','Cédric Finance','Soat','@CedricFinance');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cedricpineau','Cedric Pineau','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('charlesfry','Charles Fry','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('charlesnutter','Charles Nutter','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cedricpineau','Cedric Pineau','Finance Active','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('charlesfry','Charles Fry','Google','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('charlesnutter','Charles Nutter','Red Hat','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('christophebourguignat','Christophe Bourguignat','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('christophejolif','Christophe Jolif','IBM','@cjolif');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('christophejollivet','Christophe Jollivet','Apside TOP','@jollivetc');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('christopherbatey','Christopher Batey','DataStax','@chbatey');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('clarisseherrenschmidt','Clarisse Herrenschmidt','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('claudefalguiere','Claude Falguiere ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('clarisseherrenschmidt','Clarisse Herrenschmidt','CNRS','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('claudefalguiere','Claude Falguiere ','Valtech','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('clémentdelafargue','Clément Delafargue','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('clémentrochas','Clément Rochas','Xebia','@crochas');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('colinsurprenant','Colin Surprenant','elasticsearch','@colinsurprenant');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('craigmorrison','Craig Morrison','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cypriendecouty','Cyprien Decouty','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('colinsurprenant','Colin Surprenant','ElasticSearch','@colinsurprenant');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('craigmorrison','Craig Morrison','Murex','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cypriendecouty','Cyprien Decouty','Sculpteo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilbalit','Cyril Balit','Sfeir','@cbalit');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrillakech','Cyril Lakech','ADEO','@cyril_lakech');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilmorcrette','Cyril Morcrette','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilmottier','Cyril Mottier','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilmorcrette','Cyril Morcrette','Mappy','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilmottier','Cyril Mottier','Google ','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilledupuydauby','Cyrille DUPUYDAUBY ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilleleclerc','Cyrille Le Clerc','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrilleleclerc','Cyrille Le Clerc','Xebia','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('cyrillemartraire','Cyrille Martraire','Arolla','@cyriux');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('damiencavaillès','Damien Cavaillès','Tripndrive','@thedamfr');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('damienkrotkine','Damien Krotkine','Booking.com','@damsieboy');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('danallen','Dan Allen','OpenDevise','@mojavelinux');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('danhardiker','Dan Hardiker','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('danhardiker','Dan Hardiker','Adaptavist.com','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('danieldeluca','Daniel De Luca ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dannygooris','Danny Gooris ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidblevins','David Blevins','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidblevins','David Blevins','IBM','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('daviddelabassee','David Delabassee','Oracle','@delabassee');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidgageot','David Gageot','Retour1024','@dgageot');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidkrolak','David Krolak','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidlarlet','David Larlet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidlarlet','David Larlet','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidlindsay','David Lindsay','Coverity','@thornmaker');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidmartin','David MARTIN','Ippon Technologies','@_dmartin_');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidpilato','David Pilato','elasticsearch','@dadoonet');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidpilato','David Pilato','ElasticSearch','@dadoonet');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('davidwursteisen','David Wursteisen','Soat','@dwursteisen');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('didiergirard','Didier Girard','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('didierherbault','Didier Herbault','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('didiergirard','Didier Girard','Sfeir','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('didierherbault','Didier Herbault','Joe Mobile','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dimitribaeli','Dimitri BAELI','LesFurets.com','@dbaeli');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dineshbolkensteyn','Dinesh Bolkensteyn','SonarSource','@dbolkensteyn');
 
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dmitryjemerov','Dmitry Jemerov','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dmitryjemerov','Dmitry Jemerov','JetBrains','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dominiqueguilbaud','Dominique Guilbaud','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('dominiquevandeth','Dominique Van Deth ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('duyhaidoan','DuyHai DOAN','Datastax','@doanduyhai');
@@ -372,14 +254,14 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ekbelbou
  
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ellènedijouxsiber','Ellène Dijoux Siber','AgileDev','@ElleneSiber');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuelbernard','Emmanuel Bernard','Red Hat','emmanuelbernard');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuelfeller','emmanuel feller','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuelfeller','Emmanuel Feller','MACIF','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuelhugonnet','Emmanuel Hugonnet','Red Hat','@ehsavoie');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuellecharny','Emmanuel Lecharny','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuellecharny','Emmanuel Lecharny','Apache Software Fondation','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('emmanuelpavaux','Emmanuel PAVAUX ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericbottard','Eric Bottard','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericlemerdy','Eric le Merdy','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericleponner','Eric Le ponner','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericlefevre-ardant','Eric Lefevre-Ardant ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericbottard','Eric Bottard','VMware','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericlemerdy','Eric le Merdy','Valtech','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericleponner','Eric Le ponner','Oracle','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericlefevre-ardant','Eric Lefevre-Ardant ','Cuppa Consulting','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ericmaillard','Eric Maillard ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('etiennepeiniau','Etienne Peiniau','Ekino','@lepnio');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('evgenymandrikov','Evgeny Mandrikov ','','');
@@ -395,7 +277,7 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('florentd
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('florentlegall','Florent Le Gall','Xebia','@flornt');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('florentramière','Florent Ramière','Jaxio','@framiere');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('florianboulay','Florian Boulay','Next Performance','@FlorianBoulay');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('floriandouetteau','Florian Douetteau','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('floriandouetteau','Florian Douetteau','Dataiku','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('francesccampoyflores','Francesc Campoy Flores','Google','@francesc');
 
 
@@ -405,21 +287,21 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoi
  
  
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoisledroff','François le Droff ','Adobe','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('francoisnollen','Francois Nollen','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('francoisnollen','Francois Nollen','StepInfo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoisostyn','Francois Ostyn','soat','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoissarradin','Francois Sarradin','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('françoissarradin','Francois Sarradin','Kyriba Corporation','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frankpavageau','Frank Pavageau','Ekino','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredcecilia','Fred CECILIA','Sépage','@naikyworld');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredsimon','Fred Simon','JFrog','@freddy33');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('freddymallet','Freddy Mallet','SonarSource','@FreddyMallet');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédéricbardeau','Frédéric Bardeau','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédéricbouquet','Frédéric Bouquet ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédériccamblor','Frederic Camblor','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédéricdubois','Frederic Dubois','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédériccamblor','Frederic Camblor','4SH','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédéricdubois','Frederic Dubois','Xebia','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frederichornain','Frederic Hornain','Red Hat','@fhornain');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredericlemouel','Frederic Le Mouel','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('fredericlemouel','Frederic Le Mouel','INSA Lyon','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('frédéricweisbecker','Frédéric Weisbecker ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gabrielkastenbaum','Gabriel Kastenbaum','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gabrielkastenbaum','Gabriel Kastenbaum','Corporama','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gaëlmétais','Gaël Métais','Freelance','@gaelmetais');
 
 
@@ -436,7 +318,7 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ghislain
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('giltene','Gil Tene','Azul Systems','@giltene');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gildascuisinier','Gildas Cuisinier','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gillesbabinet','Gilles Babinet ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gillesdiguglielmo','Gilles Di Guglielmo','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gillesdiguglielmo','Gilles Di Guglielmo','Assuremieux.com ','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gillesportier','Gilles Portier ','','');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gojkoadzic','Gojko Adzic','Neuri Consulting LLP','@gojkoadzic');
@@ -445,47 +327,47 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gojkoadz
 
 
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('graylouis','Gray Louis','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('graylouis','Gray Louis','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gregtruchetet','Greg Truchetet','Viadeo','@Myxz');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gregtruty','Greg Truty','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('grégorypaul','Gregory Paul','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gregtruty','Greg Truty','IBM','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('grégorypaul','Gregory Paul','Valtech','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('grégoryweinbach','Grégory Weinbach','EZOKY','@gweinbach');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guedesbruno','Guedes Bruno','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guedesbruno','Guedes Bruno','Sfeir','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumearnaud','Guillaume Arnaud ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumebort','Guillaume Bort','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumebort','Guillaume Bort','Zenexity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumeduquesnay','Guillaume Duquesnay','I''m my own company','@duquesnay');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumeehret','Guillaume Ehret ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumegirou','Guillaume Girou','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumelaforge','Guillaume Laforge','Pivotal','@glaforge');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumelours','Guillaume LOURS ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumelours','Guillaume LOURS ','AgileIT','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumescheibel','Guillaume Scheibel','Expedia','@g_scheibel');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guillaumetardif','Guillaume Tardif','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('guymamou-mani','Guy Mamou-Mani ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('gwennaelgate','Gwennael Gate','','angus.ai');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('habibguergachi','Habib Guergachi','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('habibguergachi','Habib Guergachi','Zenexity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hadihariri','Hadi Hariri','JetBrains','@hhariri');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hayssamsaleh','Hayssam Saleh','ebiznext','@hayssams');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('heinzkabutz','Heinz Kabutz','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henrifournet','Henri Fournet ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henrigomez','Henri Gomez ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henritremblay','Henri Tremblay','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('heinzkabutz','Heinz Kabutz','Cretesoft Limited','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henrifournet','Henri Fournet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henrigomez','Henri Gomez ','Axway','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henritremblay','Henri Tremblay','Octo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('henriverdier','Henri Verdier','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hervéboutemy','Hervé Boutemy','ASF','@hboutemy');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hirammadelaine','Hiram MADELAINE','Eloquent Logic','@HiramMadelaine');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hoilam','Hoi Lam ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hollycummins','Holly Cummins','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hollycummins','Holly Cummins','IBM','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('horaciogonzalez','Horacio Gonzalez','Cityzen Data','@LostInBrittany');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('howardchu','Howard Chu','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('howardchu','Howard Chu','Symas Corporation','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hubertsablonnière','Hubert SABLONNIÈRE','INEAT Conseil','@hsablonniere');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hugogeissmann','Hugo Geissmann','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hugolassiège','Hugo Lassiège','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hugogeissmann','Hugo Geissmann','Xebia','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('hugolassiège','Hugo Lassiège','Lateral-Thoughts','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ivanbeauvais','Ivan Beauvais','Xebia','@ibeauvais');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jamesward','James Ward','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jamesward','James Ward','salesforce.com','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jamesweaver','James Weaver','Oracle','@JavaFXpert');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jameswilliams','James Williams','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeanhelou','Jean Helou','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeanhelou','Jean Helou','Xebia','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-baptistedefard','Jean-Baptiste Defard ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-baptistelemee','Jean-baptiste Lemee','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-baptistelemee','Jean-baptiste Lemee','Lateral-Thoughts','');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-baptisteclaramonte','Jean-Baptiste Claramonte','','');
 
@@ -499,30 +381,29 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-pas
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-christophesirot','Jean-Christophe Sirot','Arkena','@jcsirot');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-eudescouignoux','Jean-Eudes Couignoux','Xebia','@Jean-Eudes');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-françoisarcand','Jean-François Arcand','Async-IO.org','@jfarcand');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-francoisdenise','Jean-francois Denise','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-francoisdenise','Jean-francois Denise','Oracle','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-francoisgarreau','Jean-Francois Garreau','SQLI / GDG Nantes / Nantes Wit / Devoxx4Kids','@jefBinomed');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-françoispaccini','Jean-François Paccini ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-laurentdemorlhon','Jean-Laurent de Morlhon','Serpodile','@morlhon');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-louisrigau','Jean-Louis Rigau','Xebia','@jlrigau');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-louisrousselin','Jean-Louis Rousselin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-micheldoudoux','Jean-michel Doudoux','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-louisrousselin','Jean-Louis Rousselin','OXiane','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-micheldoudoux','Jean-michel Doudoux','RBC Investor Services','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-philippebempel','Jean-Philippe Bempel','Ullink','@jpbempel');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-philippebunaz','Jean-Philippe Bunaz ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-philippeencausse','Jean-philippe Encausse','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-pierredacher','Jean-Pierre Dacher','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeffmaury','Jeff Maury','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeffmaury','Jeff MAURY','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérémiechassaing','Jeremie Chassaing','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeremysevellec','Jeremy Sevellec','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérômebernard','Jérôme Bernard','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérômeleleu','Jerome Leleu','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeromelouvel','Jerome Louvel','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-philippeencausse','Jean-philippe Encausse','Jalios','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jean-pierredacher','Jean-Pierre Dacher','Murex','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeffmaury','Jeff Maury','Syspertec','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérémiechassaing','Jeremie Chassaing','Siriona','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeremysevellec','Jeremy Sevellec','Axon Active','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérômebernard','Jérôme Bernard','StepInfo','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérômeleleu','Jerome Leleu','SFR','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeromelouvel','Jerome Louvel','Restlet SAS','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jérômemainaud','Jérôme Mainaud','Ippon Technologies','@jxerome');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jeromevanderlinden','Jerome Van der linden','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jevgenikabanov','Jevgeni Kabanov','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jimweaver','Jim Weaver','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jevgenikabanov','Jevgeni Kabanov','ZeroTurnaround','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jimweaver','Jim Weaver','Oracle','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joemarini','Joe Marini ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joelcostigliola','Joel Costigliola','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joelcostigliola','Joel Costigliola','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joelgauci','Joel Gauci','IBM','@joel_gauci');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joelwurtz','Joel Wurtzx','JoliCode','@joelwurtz');
@@ -530,8 +411,8 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('joelwurt
 
 
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('johnstevenson','John Stevenson','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jonathanellis','Jonathan Ellis ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('johnstevenson','John Stevenson','Heroku','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jonathanellis','Jonathan Ellis ','Datastax','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jonathanlellouche','Jonathan Lellouche','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('jonathanwinandy','Jonathan Winandy','Valwin','ahoy_jon');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('josépaumard','José Paumard','Très indépendant','@JosePaumard');
@@ -540,25 +421,24 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('juergenh
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('juliendubois','Julien Dubois','Ippon Technologies','@juliendubois');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('juliendurillon','Julien Durillon','Clever Cloud','@juuduu');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienhenry','Julien HENRY ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienjakubowski','Julien Jakubowski','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienjakubowski','Julien JAKUBOWSKI ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienlanduré','Julien Landuré','Zenika / GDG Nantes','@jlandure');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienponge','Julien Ponge','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienroche','Julien Roche ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienruchaud','Julien Ruchaud','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienjakubowski','Julien Jakubowski','Octo','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienlanduré','Julien Landuré','Zenika','@jlandure');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienponge','Julien Ponge','INSA Lyon','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienroche','Julien Roche ','Objet Direct','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienruchaud','Julien Ruchaud','Code Lutin','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienvey','Julien Vey','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('julienviet','Julien Viet','Red Hat','@julienviet');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kathrynrotondo','Kathryn Rotondo ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('katiaaresti','Katia Aresti ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kevinbourrillion','Kevin Bourrillion','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kevinbourrillion','Kevin Bourrillion','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('khalidjebbari','Khalid Jebbari','Freelance','@Dj3bbZ');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kitomann','Kito Mann','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kurtkluever','Kurt Kluever','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kitomann','Kito Mann','Virtua','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kurtkluever','Kurt Kluever','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('kwameyamgnane','Kwame Yamgnane ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('lailletcédric','Laillet Cédric','Apside Top','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('laurentdoguin','Laurent Doguin','Couchbase','@ldoguin');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('laurenthuet','Laurent HUET','BA Systèmes','@lhuet35');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('laurentruaud','Laurent Ruaud','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('laurentruaud','Laurent Ruaud','SERLI','');
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('laurentvion','Laurent Vion','Criteo','');
@@ -570,17 +450,17 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('loïcknu
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('loïclebel','Loïc Le Bel','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('louisjacomet','Louis Jacomet','Terracotta','@ljacomet');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('louisrouffineau','Louis Rouffineau','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('lucbizeul','Luc Bizeul','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('lucbizeul','Luc Bizeul','Agoraction','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('luclegardeur','Luc Legardeur','Xebia','@llegardeur');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovicborie','Ludovic Borie ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovicchampenois','Ludovic Champenois','Google','@ludoch');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludoviccinquin','Ludovic Cinquin','OCTO TECHNOLOGY','@lcinquin');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludoviccinquin','Ludovic Cinquin','Octo','@lcinquin');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovichavel','Ludovic Havel','Optiflows','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovicpiot','Ludovic Piot ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovicpoitou','Ludovic Poitou','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludwineprobst','Ludwine Probst','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('majirusfansi','Majirus Fansi','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mandywaite','Mandy Waite','google','@tekgrrl');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludovicpoitou','Ludovic Poitou','ForgeRock','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ludwineprobst','Ludwine Probst','Cityzen data','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('majirusfansi','Majirus Fansi','Valtech','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mandywaite','Mandy Waite','Google','@tekgrrl');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('marcbojoly','Marc Bojoly ','','');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('marcuseliasson','Marcus Eliasson','Bitcraze','@bitcraze_se');
@@ -589,71 +469,69 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('marcusel
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('markuswinand','Markus Winand','Tuning developers for SQL performance','@MarkusWinand');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martijnverburg','Martijn Verburg','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martijnverburg','Martijn Verburg','jClarity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martingontovnikas','Martin Gontovnikas ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martingörner','Martin Gorner','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martinodersky','Martin Odersky','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martinthompson','Martin Thompson','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathiasherberts','Mathias Herberts','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathiasseguy','Mathias Seguy','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martingörner','Martin Gorner','Google','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martinodersky','Martin Odersky','EPFL','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('martinthompson','Martin Thompson','Real Logic','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathiasherberts','Mathias Herberts','Cityzen Data','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathiasseguy','Mathias Seguy','Android2EE','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieuancelin','Mathieu ANCELIN','SERLI','@TrevorReznik');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieubreton','Mathieu Breton','Xebia','@MatBreton');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieubroutin','Mathieu BROUTIN','Objectif Informatique','@mathieubroutin');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieuchataigner','Mathieu Chataigner','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieuchataigner','Mathieu Chataigner','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieugandin','Mathieu Gandin ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieuparisot','Mathieu Parisot','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieuparisot','Mathieu Parisot','soat','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathieupoumeyrol','Mathieu Poumeyrol','Indépendant','@kalizoy');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mathildelemee','Mathilde Lemée','Aetys','@MathildeLemee');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattraible','Matt Raible','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattheweernisse','Matthew Eernisse','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattraible','Matt Raible','LinkedIn','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattheweernisse','Matthew Eernisse','Yammer','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('matthieubandon','Matthieu Bandon ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('matthieufourtina','Matthieu Fourtina','LesFurets.com','@mfourtina');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('matthieulux','Matthieu Lux','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('matthieulux','Matthieu Lux','Zenika','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('matthieuplantey','Matthieu PLANTEY','Wemanity','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattiaskarlsson','Mattias Karlsson','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mattiaskarlsson','Mattias Karlsson','Jfokus','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('maxencelecointe','Maxence Lecointe','Chronopost International','@maxospiquante');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('maximegréau','Maxime Gréau','DGFIP - SRE','@mgreau');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('maximemader','Maxime Mader','Carbon IT','@kawabytes');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('michaëldesmet','Michael De smet','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('michaelseghers','Michael Seghers','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mickaelbaron','Mickael Baron','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('michaëldesmet','Michael De smet','DS-Engineering nv.','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('michaelseghers','Michael Seghers','AppFoundry','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mickaelbaron','Mickael Baron','Developpez.com','');
 
  
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mikaelrobert','Mikael Robert','Octo Technology','@mikaelrob');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mikaelrobert','Mikael Robert','Octo','@mikaelrob');
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mickaeldebonnaire','Mickael Debonnaire','Apside Top','@mdebonnaire');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('mouhcinemoulou','Mouhcine MOULOU','Soat','@mouloumouhcine');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('natpryce','Nat Pryce','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nathanielrichand','Nathaniel Richand','AgileTribu','@nrichand');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nealford','Neal Ford','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nealford','Neal Ford','ThoughtWorks','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasbabel','Nicolas Babel','streamdata.io','@StreamdataIO');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolascolomer','Nicolas Colomer','Viadeo','@n_colomer');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasdeloof','Nicolas de Loof','CloudBees','@ndeloof');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasfonrose','Nicolas Fonrose','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasfonrose','Nicolas Fonrose','Teevity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasfrançois','Nicolas François ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolashelleringer','Nicolas Helleringer','Criteo','@nhelleringer');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasjozwiak','Nicolas Jozwiak','Xebia','@njozwiak');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasleroux','Nicolas Leroux','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasloof','Nicolas Loof','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolaslorain','Nicolas Lorain','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasmartignole','Nicolas Martignole','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasleroux','Nicolas Leroux','Lunatech','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolaslorain','Nicolas Lorain','Oracle','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasmartignole','Nicolas Martignole','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasmuller','Nicolas Muller','Treeptik','@zepouet');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasrigaud','Nicolas Rigaud','Aldebaran','wtfirl');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasroard','Nicolas Roard','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasromanetti','Nicolas Romanetti','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasroard','Nicolas Roard','Google','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nicolasromanetti','Nicolas Romanetti','Jaxio','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('niklastherning','Niklas Therning','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nilsgrunwald','Nils Grunwald','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nothumbnail.giffound','No Thumbnail.gif found','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('nilsgrunwald','Nils Grunwald','Oscaro','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olegshelajev','Oleg Shelajev ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierbazoud','Olivier Bazoud','','@obazoud');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierbourgain','Olivier Bourgain','OBMG','@olivierbourgain');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierchafik','Olivier Chafik','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierchafik','Olivier Chafik','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oliviercroisier','Olivier Croisier','Moka Technologies','@OlivierCroisier');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oliviergaudin','Olivier Gaudin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oliviergirardot','Olivier Girardot','Lateral Thoughts','@ogirardot');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oliviergaudin','Olivier Gaudin','SonarSource','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oliviergirardot','Olivier Girardot','Lateral-Thoughts','@ogirardot');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierhuber','Olivier Huber','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierlamy','Olivier Lamy','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierlamy','Olivier Lamy','Talend','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierphilippot','Olivier Philippot','','');
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierrobert','Olivier Robert','','');
@@ -663,124 +541,123 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('olivierr
 
 
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('oripekelman','Ori Pekelman','Constellation Matrix','oripekelman');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pablolopez','Pablo Lopez','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pablolopez','Pablo Lopez','Xebia','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pascalrichier','Pascal Richier ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pascalvancauwenberghe','Pascal Van cauwenberghe','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('patriceséqué','Patrice Séqué ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('patrickchanezon','Patrick Chanezon','Microsoft','@chanezon');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('patrickcurran','Patrick Curran','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('patrickcurran','Patrick Curran','JCP','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pauldijou','Paul Dijou','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('paulpanserrieu','Paul Panserrieu','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('paulsandoz','Paul Sandoz','Oracle','@PaulSandoz');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('paulineiogna','Pauline Iogna','@pauline_io','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('petracross','Petra Cross','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('petracross','Petra Cross','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pfliegerarnaud','Pflieger Arnaud','LesFurets.com','@ArnaudPflieger');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippeantoine','Philippe Antoine','Xebia','@PhilippeAntoine');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippecharrière','Philippe Charrière','TypeUnsafe & SQLI','@k33g_org');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippecomte','Philippe Comte','IBM','@philippecomte');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippemartin','Philippe Martin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippeprados','Philippe Prados','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippemartin','Philippe Martin','voyages-sncf.com','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippeprados','Philippe Prados','Octo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippethomas','Philippe Thomas','IBM','@phthom77');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('philippevasconcelos','Philippe vasconcelos','carboatmedia','@bandbike_team');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrebaillet','Pierre Baillet','','@octplane');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrechaussalet','Pierre Chaussalet','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierredal-pra','Pierre Dal-pra','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierregayvallet','Pierre Gayvallet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrebaillet','Pierre Baillet','Fotopedia','@octplane');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrechaussalet','Pierre Chaussalet','Valtech','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierredal-pra','Pierre Dal-pra','eBusiness Information','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierregayvallet','Pierre Gayvallet','Xebia','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrelaporte','Pierre Laporte','Datastax','@pingtimeout');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierreleresteux','Pierre LERESTEUX','Masternaut','@pierreleresteux');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierremistrot','Pierre Mistrot ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrepadrixe','Pierre Padrixe','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrepezziardi','Pierre Pezziardi','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierrepezziardi','Pierre Pezziardi','NotreBanque','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierresutra','Pierre Sutra','University of Neuchâtel','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierre-antoinegrégoire','Pierre-Antoine Grégoire','Agile Partner S.A.','@zepag');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierre-yvesricau','Pierre-Yves Ricau ','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('pierre-yvesricau','Pierre-Yves Ricau ','Siine','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('quentinadam','Quentin Adam','Clever Cloud','@waxzce');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('quentinsallat','Quentin Sallat','iD.apps','@Aerilys');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('quentinsuire','Quentin Suire','Viadeo','@kuhess');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('rafaelwinterhalter','Rafael Winterhalter','Bouvet ASA','@rafaelcodes');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ramsguillaume','Rams Guillaume','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ramsguillaume','Rams Guillaume','Oxiane','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('raphaëlbrugier','Raphaël Brugier','LesFurets.com','rbrugier');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('raytsang','Ray Tsang','Google','@saturnism');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('rémiforax','Remi Forax','Unuiversité Paris Est Marne-la-Vallée','over_my_dead_body');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('renaudbruyeron','Renaud Bruyeron','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('renaudbruyeron','Renaud Bruyeron','Ekino','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('robertpickering','Robert Pickering','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('robertocortez','Roberto Cortez','Self Employed','@radcortez');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('rodolphegelin','Rodolphe Gelin','Aldebaran','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainguy','Romain Guy','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainguy','Romain Guy','Google','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainlinsolas','Romain Linsolas','Société Générale','@romaintaz');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmanni-bucau','Romain Manni-Bucau','Tomitribe','@rmannibucau');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmaton','Romain Maton','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmenetrier','Romain Menetrier','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmaton','Romain Maton','Indépendant','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainmenetrier','Romain Menetrier','Orange','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainniccoli','Romain Niccoli ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainpelisse','Romain Pelisse','Red Hat','@rpelisse');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('romainsertelon','Romain Sertelon','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ruicarvalho','Rui Carvalho','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sachalabourey','Sacha Labourey','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sadekdrobi','Sadek Drobi','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ruicarvalho','Rui Carvalho','ArtOfNet','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sachalabourey','Sacha Labourey','CloudBees','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sadekdrobi','Sadek Drobi','Zenexity','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sambessalah','Sam Bessalah','LatticeIQ','@samklr');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('samijaber','Sami Jaber','DNG Consulting','@samijaber');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('samuelleberrigaud','Samuel Le berrigaud','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sandromancuso','Sandro Mancuso ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastianlemerdy','Sébastian Le Merdy ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sebastienblanc','Sebastien Blanc','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastienbratières','Sebastien Bratieres','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastiencogneau','Sebastien Cogneau','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('samuelleberrigaud','Samuel Le Berrigaud','Atlassian','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sandromancuso','Sandro Mancuso ','Codurance','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastianlemerdy','Sébastian Le Merdy ','Xebia','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sebastienblanc','Sebastien Blanc','Sopra','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastienbratières','Sebastien Bratieres','Dawin GmbH','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastiencogneau','Sebastien Cogneau','GFIT','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastiendeleuze','Sébastien Deleuze','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sébastienlesaint','Sébastien Lesaint','SonarSource','@LesaintSeb');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sergeabiteboul','Serge Abiteboul ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('shaybanon','Shay Banon','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('shaybanon','Shay Banon','ElasticSearch','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sidimohammedramdani','Sidi Mohammed RAMDANI ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonbaslé','Simon Baslé','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonchignard','Simon Chignard ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonmaple','Simon Maple','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonritter','Simon Ritter','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonmaple','Simon Maple','ZeroTurnaround','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('simonritter','Simon Ritter','Oracle','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sofianeammar','Sofiane AMMAR ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephantual','Stephan Tual','Ethereum','@stephantual');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanebortzmeyer','Stéphane Bortzmeyer','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphaneepardaud','Stéphane Épardaud','Red Hat','@UnFroMage');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanegodbillon','Stephane Godbillon','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephaneguerin','Stephane Guerin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanelandelle','Stephane Landelle','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanemaldini','Stephane Maldini','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanegodbillon','Stephane Godbillon','Zenexity','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephaneguerin','Stephane Guerin','Appoke','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanelandelle','Stephane Landelle','eBusiness Information','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanemaldini','Stephane Maldini','Doc4Web consulting','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanemanciot','Stéphane Manciot','ebiznext','@smanciot');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanenicolas','Stephane Nicolas','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephanenicolas','Stephane Nicolas','Octo','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanenicoll','Stéphane Nicoll','Pivotal','@snicoll');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanepriolet','Stéphane Priolet','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphanepriolet','Stéphane Priolet','CDiscount','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stéphaniemoallic','Stéphanie MOALLIC','','@steffy_29');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephenchin','Stephen Chin ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stevefreeman','Steve Freeman','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stevennoels','Steven Noels','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stephenchin','Stephen Chin ','Oracle','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stevefreeman','Steve Freeman','Indépendant','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('stevennoels','Steven Noels','NGDATA','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sunsengdavidtan','Sun Seng David TAN','Serli','@sun.seng.david.tan');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainavril','Sylvain Avril','Indépendant','@sylvain_avril');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvaingaland','Sylvain Galand','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainlebresne','Sylvain Lebresne','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvaingaland','Sylvain Galand','Genymobile','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainlebresne','Sylvain Lebresne','Datastax','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainveyrié','Sylvain Veyrié','Transparency Rights Management','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainweber','Sylvain Weber','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainzimmer','Sylvain Zimmer','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tashacarl','Tasha Carl','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('teddunning','Ted Dunning','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainweber','Sylvain Weber','Dailymotion','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('sylvainzimmer','Sylvain Zimmer','Jamendo','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tashacarl','Tasha Carl','Indépendant','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('teddunning','Ted Dunning','MapR','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thibaultchassagnette','Thibault CHASSAGNETTE ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thibaultpouget','Thibault Pouget','Cirruseo','@thibaultpouget');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierryabaléa','Thierry Abaléa','SGCIB','@ThierryAbalea');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierrychatel','Thierry Chatel','MethoTIC Conseil','@ThierryChatel');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierrydassonville','Thierry Dassonville','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierryleriche','Thierry Leriche','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierrywasylczenko','Thierry Wasylczenko','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierrydassonville','Thierry Dassonville','Bouygues Telecom','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierryleriche','Thierry Leriche','icauda.com','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thierrywasylczenko','Thierry Wasylczenko','General Electric Healthcare','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasbailet','Thomas Bailet ','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasbassetto','Thomas Bassetto','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasbassetto','Thomas Bassetto','Joshfire','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomascarsuzan','Thomas Carsuzan','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasguerin','Thomas Guerin','Xebia','@Tom404_');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasjaskula','Thomas JASKULA','COMPOSE IT','@tjaskula');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomaslorblanches','Thomas Lorblanches','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomaslorblanches','Thomas Lorblanches','Astrium Space Transportation','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomaspierrain','Thomas Pierrain','SG CIB','@tpierrain');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomaspierrain','Thomas PIERRAIN','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('thomasrecloux','Thomas Recloux','LET IT ZEN','@thomasrecloux');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tobiasantonsson','Tobias Antonsson','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tombujok','Tom Bujok ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('trishagee','Trisha Gee','JetBrains','trisha_gee');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tugdualgrall','Tugdual Grall','MongoDB','@tgrall');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tugdualsarazin','Tugdual Sarazin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ulrichvachon','Ulrich Vachon','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('tugdualsarazin','Tugdual Sarazin','MongoDB','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('ulrichvachon','Ulrich Vachon','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('vianneylecroart','Vianney Lecroart','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('victorarslan','Victor Arslan','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('vincentferries','Vincent Ferries','','');
@@ -795,35 +672,35 @@ INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('vincentm
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('vincentspiewak','Vincent Spiewak','Xebia','@vspiewak');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('vincentvansteenbergen','Vincent Van Steenbergen','IDAaaS','@nsteenv');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('waynebeaton','Wayne Beaton','The Eclipse Foundation','@waynebeaton');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('willemvandenende','Willem van den Ende','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('willemvandenende','Willem van den Ende','QWAN','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('williammccabe','William Mccabe','','');
 
 
 
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('williammontaz','William Montaz','xebia','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('williammontaz','William Montaz','Xebia','');
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('willytarreau','Willy Tarreau','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('willytarreau','Willy Tarreau','HAPROXY Technologies','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierbourguignon','Xavier Bourguignon ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierbucchiotty','Xavier Bucchiotty','Xebia','@xbucchiotty');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xaviercoulon','Xavier Coulon','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierhanin','Xavier Hanin','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierrenaudin','Xavier Renaudin','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xaviercoulon','Xavier Coulon','Red Hat','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierhanin','Xavier Hanin','4SH','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('xavierrenaudin','Xavier Renaudin','Valtech','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yannblazart','Yann Blazart','ByCode Technologies','@yblazart');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yannickchartois','Yannick Chartois ','','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yannickgrenzinger','Yannick grenzinger','Carbon IT','@ygrenzinger');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yohanbeschi','Yohan Beschi','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yohanbeschi','Yohan Beschi','soat','');
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yoannbenoit','Yoann Benoit','xebia','');
-
-
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yoannbenoit','Yoann Benoit','Xebia','');
 
 
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yolandepoirier','Yolande Poirier','','');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yoricklaupa','Yorick Laupa','','');
+
+
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yolandepoirier','Yolande Poirier','Oracle','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yoricklaupa','Yorick Laupa','Jirafe','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('youenchéné','Youen Chéné','Creative Data','@youen_chene');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yveslecleach','Yves LE CLEACH','IBM','@ylecleach');
-INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yvesparès','Yves Pares','','');
+INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('yvesparès','Yves Pares','Indépendant','');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('zheli','Zhe LI','ARCA Computing','@AuroreZheLI');
 INSERT INTO speaker (id_speaker, nom_speaker, societe,twitter) VALUES ('zouheircadi','Zouheir Cadi','JVKWA','@zouheircadi');
 
@@ -1357,6 +1234,124 @@ insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Vox
 insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Web Oriented Architecture, une transmutation des pratiques de construction des SI','','conf',{'habibguergachi'});
 
 
+
+
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Réduire la pression sur l''allocation mémoire : le prochain pas dans l''optimisation des performances de la JVM','','TIA',{'benoitperroud','olivierlamy'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Tester une application Web avec Selenium 2, Selenium Grid et TestNG','','TIA',{'mathildelemee'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'GPGPU facile avec JavaCL, et trivial avec ScalaCL !','','TIA',{'olivierchafik'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Pratiquer DDD en un éclair','','TIA',{'ulrichvachon'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Chouchoutez votre code JavaScript','','TIA',{'romainlinsolas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Apache Buildr','','TIA',{'alexismidon'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Continuous deployement : Rackspace, Chef et capistrano en action','','TIA',{'bertrandpaquet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Simplifiez vos développements Android avec AndroidAnnotations !','','TIA',{'pierre-yvesricau','alexandrethomas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Réaliser des tests de charges avec Gatling','','TIA',{'stéphanelandelle','romainsertelon'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'JDK 8 demo: lambdas in Action','','TIA',{'guillaumetardif'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'De l''audit de Code à l''Inspection Continue','','TIA',{'oliviergaudin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2012,'Dessine moi un language: à la découverte de Xtext','','TIA',{'jeffmaury'});
+
+
+
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Le taré du terminal: outil pour le développeur de l''extrême','','TIA',{'emmanuelbernard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'HAProxy level 2 : des bases aux problématiques de scaling','','TIA',{'nicolashelleringer'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'OpenBCI ou comment lire dans les pensées en Java','','TIA',{'mathieuancelin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'RxJava - From Future To Rx','','TIA',{'bricedutheil','davidwursteisen'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Déboguage de JavaScript','','TIA',{'christophejollivet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Modulariser son application AngularJS avec Browserify','','TIA',{'antoinerichard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Coder Tetris en JavaScript, CoffeeScript, ClojureScript, GopherJs et elm','','TIA',{'philippeantoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Codez et déployez votre première application Web avec Ceylon','','TIA',{'stéphaneepardaud','julienviet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Sortez couverts avec Hystrix','','TIA',{'thomasrecloux'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'TypeScript, le JavaScript statiquement typé','','TIA',{'benoitlemoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développer des applications multiplateformes facilement à l''aide de Ionic Framework','','TIA',{'stéphaniemoallic'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elles ressemblent à quoi mes données ?','','TIA',{'davidpilato','colinsurprenant'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Un Jenkins amélioré avec Docker, Mesos et Marathon','','TIA',{'jean-louisrigau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Créer des scènes 3D dans un navigateur web avec Three.js','','TIA',{'zheli'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Développement Java avec un IDE dans le Cloud: YES WE CAN','','TIA',{'sunsengdavidtan','florentbenoit'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Des applications Java #?!@ing Manageable','','TIA',{'emmanuelhugonnet','alexishassler'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Java dans le hardware avec la librairie Libbulldog','','TIA',{'laurenthuet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'WireMock, le serveur HTTP couteau suisse','','TIA',{'etiennepeiniau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Gitflow in action','','TIA',{'céciliabossard'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Elasticsearch - De l''importance du mapping','','TIA',{'jérômemainaud'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Utilisation de SparkSQL pour analyser vos données Cassandra en Java, Scala et Python','','TIA',{'alexanderdejanovski','maxencelecointe'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Quand Java prend de la vitesse, Apache Maven vous garde sur les rails','','TIA',{'arnaudheritier','hervéboutemy'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'InfluxDB : la base de données chronologique OpenSource autonome','','TIA',{'nicolasmuller'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Et si on arrêtait de se prendre la tête avec la documentation','','TIA',{'guillaumescheibel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'JavaScript : analyser le code spaghetti d''une page web avec Yellow Lab Tools','','TIA',{'gaëlmétais'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Armez-vous d''un pixel monitoring avec Zeno !','','TIA',{'matthieufourtina'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Une présentation qui ne manque pas d''R!','','TIA',{'nathanielrichand','philippevasconcelos'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'App Engine Managed VMs et Fluent-http, un mariage heureux','','TIA',{'davidgageot'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'React, une autre façon de penser vos composants graphiques','','TIA',{'mathieuancelin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'La phygitalisation, le super pouvoir du développeur!','','TIA',{'cyrillakech','bertrandgressier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Tour d’horizon des outils pour être un développeur web productif','','TIA',{'jean-francoisgarreau','julienlanduré'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment créer un Web Component en moins de 30 minutes','','TIA',{'christophejolif'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Comment Akka persistence fera de vous un meilleur développeur !','','TIA',{'fredcecilia'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Jeu de rôle en ligne massivement multijoueur avec Firebase','','TIA',{'alexismoussine-pouchkine','thomasguerin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2015,'Oserez vous remplacer JPA par un micro ORM?','','TIA',{'youenchéné','pierreleresteux'});
+
+
+
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Expression Oriented Programming with F#','','TIA',{'robertpickering'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Golo, de la sucrette syntaxique pour vos applications Java','','TIA',{'philippecharrière'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Programmation et musique avec Clojure et Overtone','','TIA',{'mathieugandin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'REST facile et robuste avec Vert.x et Groovy','','TIA',{'aurélienmaury'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Un framework Web from scratch en Scala','','TIA',{'françoissarradin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'30 minutes pour développer une appli Java EE ? C''est largement suffisant avec Forge 2.0!','','TIA',{'antoniogoncalves'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Mesurer directement depuis le CPU: les compteurs de performance','','TIA',{'jean-philippebempel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Microbenchmarking avec JMH','','TIA',{'henritremblay'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'One Java library to rule all security protocols','','TIA',{'jérômeleleu'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Tout ce que vous avez toujours voulu savoir de la JVM sans jamais oser lui demander en ligne de commande','','TIA',{'briceleporini'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'ZeroMQ : des super sockets pour insérer facilement 400 msg/s dans Elasticsearch','','TIA',{'bertrandpaquet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Au secours, mon portable part en prod ! (ou presque...)','','TIA',{'pierrechaussalet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Git++ : Passez au niveau supérieur de la gestion de version','','TIA',{'cyrillakech','hubertsablonnière'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'HAProxy+Keepalived le loadbalancer in house facile','','TIA',{'nicolashelleringer'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'SonarQube sans quitter son IDE','','TIA',{'julienhenry'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'15''pour coder Tetris en CoffeeScript','','TIA',{'philippeantoine'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Apprenez les ficelles de Marionette','','TIA',{'romainmaton'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Créons un web component avec Polymer','','TIA',{'julienjakubowski','romainlinsolas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Karma et Protractor, testons vos applications AngularJS','','TIA',{'christophejollivet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Models and Rest APIs on AngularJS with Restangular','','TIA',{'martingontovnikas'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'One tool to module them all','','TIA',{'pauldijou'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'WebSocket, NoSQL, et Non-Blocking Server-Side I/O avec Kaazing, MongoDB, et Node.js','','TIA',{'tugdualgrall'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Bluetooth Low Energy, votre téléphone comme passerelle de l''internet des objets','','TIA',{'romainmenetrier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Robotium vs Espresso: Get ready to rumble !','','TIA',{'thomasguerin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Ansible in action - le provisionning au bon niveau d''abstraction','','TIA',{'oliviergirardot'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Comment développer un PaaS Java en 30 minutes avec docker','','TIA',{'nicolasmuller','fabienamico'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Détection de malwares par leur empreinte réseau.','','TIA',{'thomasbailet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Machine Learning, Python et Open Data : démonstration d''un cas d''usage pour geek','','TIA',{'christophebourguignat'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Redis, une base Not Only NoSQL','','TIA',{'nicolasmartignole'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2014,'Spark the data scientist’s toolbox','','TIA',{'tugdualsarazin'});
+
+
+
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'24 Plugins Chrono','','TIA',{'romainmaton'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'3615 Cloud@Devoxx','','TIA',{'laurenthuet','nicolasdeloof'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Arquillian pour des tests Web simples et efficaces','','TIA',{'alexishassler'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Build & Deploy on your own cloud','','TIA',{'xaviercoulon'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'CRaSH le shell pour la plateforme Java','','TIA',{'julienviet','alaindefrance'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Déminage d''une application avec JRockit Mission Control','','TIA',{'françoisostyn'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Developing Modern Web Apps With Backbone.js','','TIA',{'sylvainzimmer'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Développer une application web à page unique en Dart','','TIA',{'yohanbeschi'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'eXtreme testing avec Byteman','','TIA',{'mathildelemee'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Faire parler son code source avec Sonar','','TIA',{'freddymallet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Fast Forward: comment migrer un gros projet de SVN à Git','','TIA',{'renaudbruyeron','thomascarsuzan'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Git Push Deploy - developer collaboration in the cloud with Github & Heroku','','TIA',{'johnstevenson'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Golo, un langage simple et léger basé sur invokedynamic','','TIA',{'julienponge'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Good Bad and Ugly Maven - a puzzler session','','TIA',{'nicolasdeloof','arnaudheritier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Gradle, 30 minutes pour tout changer','','TIA',{'sébastiencogneau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'L''épluche légume : un outil simple et efficace. 5 outils en 5 minute chacun, pour être plus productif dans le développement de tous les jours','','TIA',{'guillaumetardif'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Live coding avec Yeoman & AngularJS','','TIA',{'matthieulux'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Musclez vos applis Android avec les outils du monde Java','','TIA',{'stephanenicolas','jeromevanderlinden'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'NFC, l''interaction facilitée des mobiles avec leur environnement','','TIA',{'romainmenetrier'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'No more (unsecure) secrets, Marty','','TIA',{'mathiasherberts'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Présentation de Frege, un langage fonctionnel dans l''esprit d''Haskell tournant sur la JVM','','TIA',{'yoricklaupa'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Programmation déclarative en Clojure: du destructuring à Datomic','','TIA',{'nilsgrunwald'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Réalité Augmentée avec Android','','TIA',{'atefhaouari'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'SARAH une maison Intelligente pour connecter les objets','','TIA',{'jean-philippeencausse'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Solutions pour programmation calcul de masse - Hadoop distribuée- Pig / Hive / Cascading / MapReduce','','TIA',{'floriandouetteau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Soon, in a galaxy not so far away','','TIA',{'mathieuancelin'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Space Chatons: Bleeding Edge HTML5','','TIA',{'philippeantoine','pierregayvallet'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Spock, le testing nouvelle génération','','TIA',{'cédricchampeau'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Trucs et astuces avec Java et MongoDB sur Raspberry PI','','TIA',{'guillaumescheibel'});
+insert into talk(annee, titre, categorie, type_talk, speakers) VALUES (2013,'Weld-OSGi in action','','TIA',{'mathieuancelin'});
 
 
 
