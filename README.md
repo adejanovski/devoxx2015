@@ -2,6 +2,13 @@
 Sources du TIA sur Cassandra et SparkSQL
 
 # Setup Spark
+
+Vous pouvez récupérer notre installation Spark à cette adresse : https://dl.dropboxusercontent.com/u/708980/spark-1.1.1-bin-hadoop2.4.tgz
+
+Pensez à remplacer dans les fichiers de conf les références à "centosvm" par l'adresse de votre machine maître.
+
+**Si vous voulez partir de votre installation Spark**
+
 Placer dans spark/lib les fichiers spark-cassandra-connector-assembly-1.x.x.jar et spark-cassandra-connector-java-assembly-1.x.x.jar
 
 Dans conf/spark-defaults.conf, mettre : 
