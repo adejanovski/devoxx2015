@@ -7,8 +7,7 @@ Vous pouvez récupérer notre installation Spark à cette adresse : https://dl.d
 
 Créez les dossiers suivants avec les droits qui vont bien et vérifiez le fichier conf/spark-env.sh pour y remplacer les valeurs qui ne collent pas avec votre config : 
 
-/data/spark/work
-/data/spark/log
+/data/spark/work et /data/spark/log
 
 Pensez à remplacer dans les fichiers de conf les références à "centosvm" par l'adresse de votre machine maître (ou ajoutez centosvm dans votre fichier hosts pour qu'il pointe sur votre machine).
 
