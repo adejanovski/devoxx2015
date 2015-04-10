@@ -5,7 +5,12 @@ Sources du TIA sur Cassandra et SparkSQL
 
 Vous pouvez récupérer notre installation Spark à cette adresse : https://dl.dropboxusercontent.com/u/708980/spark-1.1.1-bin-hadoop2.4.tgz
 
-Pensez à remplacer dans les fichiers de conf les références à "centosvm" par l'adresse de votre machine maître.
+Créez les dossiers suivants avec les droits qui vont bien et vérifiez le fichier conf/spark-env.sh pour y remplacer les valeurs qui ne collent pas avec votre config : 
+
+/data/spark/work
+/data/spark/log
+
+Pensez à remplacer dans les fichiers de conf les références à "centosvm" par l'adresse de votre machine maître (ou ajoutez centosvm dans votre fichier hosts pour qu'il pointe sur votre machine).
 
 
 **Si vous voulez partir de votre installation Spark:**
@@ -18,7 +23,7 @@ Dans conf/spark-defaults.conf, mettre :
 
 **spark.cassandra.connection.host adresse_dun_noeud_cassandra**
 
-Pous Scala et Java, de manière à éviter les exceptions sur jointures, dans bin/compute-classpath.sh remplace la ligne : 
+Pous Scala et Java, de manière à éviter les exceptions sur jointures, dans bin/compute-classpath.sh remplacer la ligne : 
 
 **CLASSPATH="$CLASSPATH:$ASSEMBLY_JAR"**
 
@@ -43,9 +48,11 @@ Aller dans votre install spark et lancer le cluster (modifiez le fichier conf/sl
 
 Ensuite allez dans le répertoire spark/bin pour lancer le script Scala : ./spark-shell.sh -i /scripts/analyse_devoxx.scala
 
-Lancez les jobs java : ./spark-submit --class devoxx.DevoxxSpeakersParAnneeSummary --master spark://centosvm:7077 /scripts/devoxx.jar
+Lancez les jobs java : 
 
-Lancez les jobs java : ./spark-submit --class devoxx.DevoxxTalksParSocieteSummary --master spark://centosvm:7077 /data/devoxx.jar
+./spark-submit --class devoxx.DevoxxSpeakersParAnneeSummary --master spark://127.0.0.1:7077 /scripts/devoxx.jar
+
+./spark-submit --class devoxx.DevoxxTalksParSocieteSummary --master spark://127.0.0.1:7077 /data/devoxx.jar
 
 Et enfin, lancez le script python : ./pyspark-calliope.sh /scripts/analyse_devoxx.py 
 
